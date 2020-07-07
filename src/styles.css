@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+}
+
+.title {
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+}
+
+.section-container {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 10px;
+  margin-bottom: 10px;
+}
+.section-title {
+  margin: 0;
+  padding: 10px;
+}
+
+.datep {
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  background-color: #d8d8d8;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.datep:hover {
+  cursor: pointer;
+}
+
+.response-container {
+  background-color: #282828;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.response-container > span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
